@@ -1,1 +1,11 @@
+ <button type="button">Click Me!</button> 
 
+function runPythonScript() {
+  // Get the path to the Python script.
+  var pythonScriptPath = "path/to/python/script.py";
+
+// Run the Python script.
+  subprocess.run(["python", pythonScriptPath]);
+}
+
+<button onclick="runPythonScript()">Run Python Script</button>
