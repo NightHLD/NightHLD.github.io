@@ -3,7 +3,7 @@ import numpy as np
 import base64
 import time
 from random import randint
-from Pages import Game_1.py
+import Game_1.py
 
 
 
