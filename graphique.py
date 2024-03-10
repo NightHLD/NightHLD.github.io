@@ -4,6 +4,7 @@ import base64
 import time
 from random import randint
 import Pages
+#Les fichiers Games doivent être dans un dossier nommer "Pages" pour créér une appli multipage.
 
 
 
@@ -134,3 +135,6 @@ if st.session_state['energie'] == 50 and st.session_state['nourriture'] == 20 an
 time.sleep(10)
 
 st.rerun()
+
+
+#Je relance Marion depuis le 05/03, mais aucue réponse. J'ai également demander a notre cheffe de Projet Louane de lui envoyer un message mais aucune réponse non plus. Le code a donc des problèmes non réglés (quand on appui pour remonter un beoin les autre décendent beaucoup trop vite), et les jeux manque, dont les mesages que j'ai incrit dans chaqu fichier jeux. Nous sommes toujours en attente d'une réponse de la part de Marion. Désolées pour le code non aboutit et le manque de fonctionalités. Eva & Louane.
